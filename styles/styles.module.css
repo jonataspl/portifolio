@@ -1,0 +1,97 @@
+h1 {
+  font-family: "Courier New", Courier, monospace;
+}
+
+body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    0deg,
+    rgba(2, 0, 36, 50) 0%,
+    rgb(25, 37, 170) 50%,
+    rgba(26, 46, 166, 1) 100%
+  );
+
+  min-height: 100vh;
+  margin: 0px;
+}
+
+head {
+  display: flex;
+}
+
+div {
+  margin: auto;
+  max-width: 1000px;
+  align-items: center;
+}
+
+.onTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icons {
+  margin: 0px;
+}
+
+.hello {
+  display: block;
+  width: 300px;
+}
+
+.aboutMe {
+  color: aliceblue;
+  flex-wrap: wrap;
+  width: 90% !important;
+
+  font-size: 16pt;
+}
+
+.avatar {
+  max-width: 400px;
+  max-height: 400px;
+  display: flex;
+  justify-content: center;
+}
+
+/*.box {
+  height: 300px !important;
+  min-width: 300px !important;
+  background-color: rgb(255, 255, 255, 0.6);
+  border-radius: 12%;
+
+  padding: 10px;
+  color: rebeccapurple;
+  box-sizing: border-box;
+  box-shadow: 6px 6px 2rem rgba(0, 0, 0, 0.888);
+  display: block;
+
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0.2),
+    rgba(255, 255, 255, 0.8)
+  );
+}*/
+
+.nome {
+  display: flex;
+  color: rgba(0, 0, 0, 1);
+  justify-content: center;
+}
+
+.profilePhoto {
+  display: flex;
+  margin: auto;
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+
+  box-sizing: border-box;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.888);
+}
+
+.Profile {
+  display: flex;
+  justify-content: space-between;
+}
