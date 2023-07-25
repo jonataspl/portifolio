@@ -3,16 +3,11 @@ h1 {
 }
 
 body {
-  background: rgb(2, 0, 36);
-  background: linear-gradient(
-    0deg,
-    rgba(2, 0, 36, 50) 0%,
-    rgb(25, 37, 170) 50%,
-    rgba(26, 46, 166, 1) 100%
-  );
+  background: rgba(26, 46, 166, 1) 100%;
 
   min-height: 100vh;
-  margin: 0px;
+  min-width: 30px;
+  margin: 0px 30px;
 }
 
 head {
@@ -53,26 +48,26 @@ div {
   max-height: 400px;
   display: flex;
   justify-content: center;
+  margin: auto;
 }
 
-/*.box {
-  height: 300px !important;
+.projectBox {
+  height: 150px !important;
   min-width: 300px !important;
   background-color: rgb(255, 255, 255, 0.6);
-  border-radius: 12%;
+  border-radius: 2rem;
+  margin-bottom: 2rem;
 
-  padding: 10px;
   color: rebeccapurple;
   box-sizing: border-box;
   box-shadow: 6px 6px 2rem rgba(0, 0, 0, 0.888);
-  display: block;
 
   background: linear-gradient(
-    0deg,
-    rgba(255, 255, 255, 0.2),
-    rgba(255, 255, 255, 0.8)
+    270deg,
+    rgba(2, 0, 36, 50) 0%,
+    rgba(25, 37, 170, 0.333) 50%
   );
-}*/
+}
 
 .nome {
   display: flex;
