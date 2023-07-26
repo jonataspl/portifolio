@@ -90,3 +90,11 @@ div {
   display: flex;
   justify-content: space-between;
 }
+
+.ReactLogo {
+  display: flex;
+  width: 100px !important;
+  height: 100px !important;
+  margin: 15px 10px 15px 0px;
+  align-items: center;
+}
