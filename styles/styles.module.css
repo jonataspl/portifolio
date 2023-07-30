@@ -1,9 +1,12 @@
 h1 {
-  font-family: "Courier New", Courier, monospace;
+  color: #d4d4d4;
 }
 
 body {
-  background: rgba(26, 46, 166, 1) 100%;
+  background: #121212;
+  color: #a3a3a3;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen, Droid Sans,
+    Helvetica Neue, sans-serif;
 
   min-height: 100vh;
   min-width: 30px;
@@ -36,7 +39,6 @@ div {
 }
 
 .aboutMe {
-  color: aliceblue;
   flex-wrap: wrap;
   width: 90% !important;
 
@@ -52,21 +54,21 @@ div {
 }
 
 .projectBox {
-  height: 150px !important;
+  height: 144px !important;
   min-width: 300px !important;
-  background-color: rgb(255, 255, 255, 0.6);
-  border-radius: 2rem;
+  background-color: #262626;
+  border-radius: 0.5rem;
   margin-bottom: 2rem;
 
-  color: rebeccapurple;
   box-sizing: border-box;
-  box-shadow: 6px 6px 2rem rgba(0, 0, 0, 0.888);
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.08);
 
-  background: linear-gradient(
+  /* background: linear-gradient(
     270deg,
     rgba(2, 0, 36, 50) 0%,
     rgba(25, 37, 170, 0.333) 50%
-  );
+  ); */
+  display: flex;
 }
 
 .nome {
@@ -93,8 +95,21 @@ div {
 
 .ReactLogo {
   display: flex;
-  width: 100px !important;
-  height: 100px !important;
-  margin: 15px 10px 15px 0px;
-  align-items: center;
+  vertical-align: middle;
+  width: 144px !important;
+  height: 144px !important;
+  margin-left: 15px !important;
+  margin-right: 15px !important;
+}
+
+.tecnologyIcon {
+  box-sizing: border-box;
+}
+
+.tags {
+  padding: 0.25rem 0.5rem 0.25rem 0.5rem;
+  box-sizing: border-box;
+  max-width: 70px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
